@@ -11,6 +11,10 @@ data:
       - expense-tarinee
       userarn: arn:aws:iam::586794480827:user/meerjan
       username: meerjan
+      - groups:
+      - expense-admin
+      userarn: arn:aws:iam::586794480827:user/jareena
+      username: jareena
 kind: ConfigMap
 metadata:
   creationTimestamp: "2024-11-10T17:30:25Z"
