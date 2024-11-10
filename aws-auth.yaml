@@ -8,10 +8,10 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
     - groups:
-      - expense-tarinee
+      - expense-trainee
       userarn: arn:aws:iam::586794480827:user/meerjan
       username: meerjan
-      - groups:
+    - groups:
       - expense-admin
       userarn: arn:aws:iam::586794480827:user/jareena
       username: jareena
